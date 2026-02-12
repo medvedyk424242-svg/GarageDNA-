@@ -1,0 +1,66 @@
+{
+  "segment_id": "minimal_techno_001",
+  "tempo": {
+    "bpm": 128,
+    "timesignature": "4/4"
+  },
+  "key": {
+    "root": "G",
+    "mode": "minor"
+  },
+  "bass_spec": {
+    "sub": {
+      "waveform": "sine",
+      "level": 0.8,
+      "pitch": "G1"
+    },
+    "low_mid": {
+      "waveform": "saw",
+      "level": 0.4,
+      "pitch": "G2",
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 300,
+        "resonance": 0.2
+      }
+    },
+    "envelope": {
+      "attack": 0.01,
+      "decay": 0.2,
+      "sustain": 0.6,
+      "release": 0.1
+    },
+    "filter_cutoff": 80,
+    "resonance": 0.3
+  },
+  "groove_interaction": {
+    "bass_kick_phase": "aligned",
+    "kick_hat_pattern": "offbeat",
+    "archetype": "four_on_floor"
+  },
+  "clash_report": {
+    "masking_detected": false,
+    "conflicts": []
+  },
+  "pressure": {
+    "state": 3,
+    "sustain": 0.7,
+    "low_end_density": 0.6,
+    "envelope_slowness": 0.5
+  },
+  "energy": {
+    "state": 4,
+    "event_density": 0.5,
+    "transient_sharpness": 0.6,
+    "spectral_brightness": 0.4,
+    "rhythmic_motion": 0.7
+  },
+  "rhythm_dna": {
+    "grid": "16th",
+    "swing": 0.3,
+    "kick_pattern": [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0],
+    "snare_pattern": [0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0],
+    "hat_pattern": [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
+    "ghost_notes": []
+  }
+}
