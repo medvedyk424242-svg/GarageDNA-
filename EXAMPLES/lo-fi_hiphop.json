@@ -1,0 +1,66 @@
+{
+  "segment_id": "lofi_hiphop_001",
+  "tempo": {
+    "bpm": 85,
+    "timesignature": "4/4"
+  },
+  "key": {
+    "root": "D",
+    "mode": "minor"
+  },
+  "bass_spec": {
+    "sub": {
+      "waveform": "sine",
+      "level": 0.5,
+      "pitch": "D1"
+    },
+    "low_mid": {
+      "waveform": "triangle",
+      "level": 0.3,
+      "pitch": "D2",
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 200,
+        "resonance": 0.1
+      }
+    },
+    "envelope": {
+      "attack": 0.1,
+      "decay": 0.3,
+      "sustain": 0.5,
+      "release": 0.4
+    },
+    "filter_cutoff": 70,
+    "resonance": 0.2
+  },
+  "groove_interaction": {
+    "bass_kick_phase": "laid_back",
+    "kick_hat_pattern": "syncopated",
+    "archetype": "half_time"
+  },
+  "clash_report": {
+    "masking_detected": false,
+    "conflicts": []
+  },
+  "pressure": {
+    "state": 2,
+    "sustain": 0.4,
+    "low_end_density": 0.3,
+    "envelope_slowness": 0.6
+  },
+  "energy": {
+    "state": 2,
+    "event_density": 0.3,
+    "transient_sharpness": 0.2,
+    "spectral_brightness": 0.3,
+    "rhythmic_motion": 0.3
+  },
+  "rhythm_dna": {
+    "grid": "16th",
+    "swing": 0.6,
+    "kick_pattern": [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+    "snare_pattern": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+    "hat_pattern": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1],
+    "ghost_notes": [3, 7, 11]
+  }
+}
